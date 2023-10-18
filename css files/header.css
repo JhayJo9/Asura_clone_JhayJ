@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 53px;
+    background-color: rgb(48, 90, 215);
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.left-section{
+    padding-left: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    background-color: rgb(48, 90, 215);
+}
+.ham-img{
+    height: 40px;
+    margin-right: 8px;
+    background-color: rgb(48, 90, 215);
+}
+.asura-img{
+    height: 40px;
+    background-color: rgb(48, 90, 215);
+}
+.middle-section{
+    display: flex;
+    margin-right: 95px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.s-r{
+    height: 34px;
+    background-color: rgb(44, 43, 43);
+    border-color: black;
+    border-style: solid;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    position: relative;
+}
+.search-bar-btn{
+    height: 37px;
+    width: 40px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    position: absolute;
+    right: 0;
+    border-color: rgb(44, 43, 43);
+    
+    border-style: solid;
+    position: absolute;
+    right: 0;
+    
+}

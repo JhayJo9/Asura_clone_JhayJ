@@ -1,0 +1,55 @@
+.slide-content{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   background-color: rgb(4, 6, 6);
+   margin-top: 10px;
+   padding: 20px;
+   color: #DDDD;
+   
+}
+.title, .type, .genre, .sum, .summary, .author, .status{
+    padding-left: 20px;
+    background-color: black;
+}
+.title{   
+    font-size: 16px;
+    font-weight: 700;
+    width: 250px;
+    display: flex;
+    
+}
+.type{
+    padding-top: 3px;
+    font-size: 13px;
+    color: #ffc107;
+}
+.genre{
+    font-size: 13px;
+    padding-top: 3px;
+}
+.sum{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.summary{
+    font-size: 13px; 
+    padding-bottom: 6px;
+    width: 300px;
+}
+.author, .status{
+    font-size: 13px;
+}
+.status{
+    margin-bottom: 3px;
+}
+
+
+.thumbnail{
+    height: 85px;
+    position: absolute;
+    right: 0;
+    left: 300px;
+    top: 85px;
+    
+}
+
